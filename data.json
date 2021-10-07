@@ -59,8 +59,8 @@
             "description": "A color changing quote generator that provides a new quote with each button click. This program utilizes functions and conditional statements to iterate an array of objects and print them to the screen.",
             "technologies": ["Javascript","CSS","HTML", "GitHub", "Visual Studio Code"
             ],
-            "live_link": "https://shauncy777.github.io/data-pagination-and-filtering-project2/",
-            "github_link": "https://github.com/shauncy777/data-pagination-and-filtering-project2",
+            "live_link": "https://codepen.io/shawn-daugherty-calhoun/full/eYgEYMw",
+            "github_link": "https://github.com/shauncy777/Techdegree-project-1",
             "image_urls": [ "/static/img/Screen Shot 2021-09-29 at 2.55.41 PM.png",
                             "/static/img/Screen Shot 2021-09-29 at 3.05.10 PM.png"
                         ]

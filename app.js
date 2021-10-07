@@ -67,7 +67,7 @@ app.use((err, req, res, next) => {
 
 
 // Sets up development server to run on port 3000
-app.listen(port, () => {
+app.listen( port, () => {
     console.log('The application is up and running on localhost: 1337');
 
 });
