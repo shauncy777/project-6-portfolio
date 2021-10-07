@@ -2,6 +2,7 @@
 const express = require("express");
 const { projects }  = require('./data.json');
 const app = express();
+const port = process.env.PORT || 1337;
 
 // Parses json data
 app.use(express.json());
@@ -66,7 +67,7 @@ app.use((err, req, res, next) => {
 
 
 // Sets up development server to run on port 3000
-app.listen(3000, () => {
-    console.log('The application is up and running on localhost: 3000!');
+app.listen(port, () => {
+    console.log('The application is up and running on localhost: 1337');
 
 });
