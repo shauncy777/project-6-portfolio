@@ -1,0 +1,86 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Flashcard App",
+            "description": "A personalized flashcard application built with Express and Pug on Node.js that stores username in a cookie, asks a random question, and provides hints and answers with interactive buttons."
+            ,
+            "technologies": ["Javascript","CSS","HTML", "Node.js","Express.js", "Pug", "Heroku", "GitHub", "Visual Studio Code"
+            ],
+            "live_link": "https://flashcards-nodejs-express.herokuapp.com/hello",
+            "github_link": "https://github.com/shauncy777/flashcards-express",
+            "image_urls": [ "/static/img/project_1sq.png",
+                            "/static/img/project_1rec.png"
+            ]
+        },
+
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Program that allows users to click through multiple pages of student data by using pagination and filtering techniques",
+            "technologies": ["Javascript","CSS","HTML", "GitHub", "Visual Studio Code"
+            ],
+            "live_link": "https://shauncy777.github.io/data-pagination-and-filtering-project2/",
+            "github_link": "https://github.com/shauncy777/data-pagination-and-filtering-project2",
+            "image_urls": [ "/static/img/project_2sq.png",
+                            "/static/img/project_2_rect.png"
+            ]
+        },
+        
+        {
+            "id": 2,
+            "project_name": "Interactive Web Form",
+            "description": "An interactive registration form for a fictional Full Stack conference which uses JavaScript to enable conditional behavior and interactivity by validating user input and providing helpful error messages when the user enters invalid information.",
+            "technologies": ["Javascript","CSS","HTML", "Meets WCAG Compliance Standards", "GitHub", "Visual Studio Code"
+            ],
+            "live_link": "https://shauncy777.github.io/project-3/",
+            "github_link": "https://github.com/shauncy777/proj3-FSJS-interactiveForm",
+            "image_urls": [ "/static/img/project_3sq.png",
+                            "/static/img/project_3rec.png"
+            ]
+        },  
+        
+        {
+            "id": 3,
+            "project_name": "Public API Requests",
+            "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. A Random User Generator API (https://randomuser.me/) is used to grab information for 12 random “employees,” and builds a prototype for an employee directory. Clicking the employee’s image or name displays a modal window with more detailed information.",
+            "technologies": ["Javascript","CSS","HTML", "Fetch and Public APIs","OOP", "GitHub", "Visual Studio Code"
+            ],
+            "live_link": "https://shauncy777.github.io/project_5/",
+            "github_link": "https://github.com/shauncy777/project_5",
+            "image_urls": [ "/static/img/project_4sq.png",
+                            "/static/img/project_4rec.png"
+            ]
+        },       
+        
+        {
+            "id": 4,
+            "project_name": "Random Quote Generator",
+            "description": "A color changing quote generator that provides a new quote with each button click. This program utilizes functions and conditional statements to iterate an array of objects and print them to the screen.",
+            "technologies": ["Javascript","CSS","HTML", "GitHub", "Visual Studio Code"
+            ],
+            "live_link": "https://shauncy777.github.io/data-pagination-and-filtering-project2/",
+            "github_link": "https://github.com/shauncy777/data-pagination-and-filtering-project2",
+            "image_urls": [ "/static/img/Screen Shot 2021-09-29 at 2.55.41 PM.png",
+                            "/static/img/Screen Shot 2021-09-29 at 3.05.10 PM.png"
+                        ]
+        },
+        {
+            "id": 5,
+            "project_name": "Phrase Hunter",
+            "description": "This is a word guessing game that displays a random, hidden phrase, which a player tries to guess by clicking letters on an onscreen keyboard.",
+            "technologies": ["Javascript",
+                            "CSS",
+                            "HTML",
+                            "OOP", 
+                            "GitHub",
+                            "Visual Studio Code"
+            ],
+            "live_link": "https://shauncy777.github.io/Project_4_game_show/",
+            "github_link": "https://github.com/shauncy777/Project_4_game_show",
+            "image_urls": [ "/static/img/Screen Shot 2021-09-29 at 12.51.35 PM.png",
+                            "/static/img/Screen Shot 2021-09-29 at 5.21.31 PM.png"
+            ]
+        }
+    ]
+}
