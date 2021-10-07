@@ -5,7 +5,8 @@ html(lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet")
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
 
@@ -14,25 +15,20 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src='/static/img/FullSizeRender.jpeg', alt='Shawn profile pic')
         .dev-intro-box
 
-          //- Replace with your name
-          h5 Name
+          h5 Shawn Daugherty Calhoun
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
-
-          //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
+          p I'm a Full-Stack Web Developer residing in Portland, Oregon. 
+          a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
-          span Name
+          span  Shawn Daugherty Calhoun
 
       block content
 
