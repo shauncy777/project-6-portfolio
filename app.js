@@ -20,7 +20,10 @@ app.get('/', (req, res, next) => {
 
 // Creates and renders about page
 app.get('/about', (req, res, next) => {
-    res.render('about');
+    //res.render('about');
+    const err = new Error ('you fucked up');
+    err.status = 500;
+    next(err);
 });
 
 // Creates dynamic project routes
@@ -51,7 +54,7 @@ app.use((req, res, next) => {
     console.log("404 Error Handler Called");
     const err = new Error('Not Found!');
     err.status = 404;
-    res.render('page-not-found');
+    res.status(404).render('page-not-found');
 });
 
 // Global error handler
@@ -71,3 +74,5 @@ app.listen( port, () => {
     console.log('The application is up and running on localhost: 1337');
 
 });
+
+

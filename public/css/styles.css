@@ -473,7 +473,6 @@ color: #2c2b2b;
 
 
 
-// CSS Bounce Hover Effect from https://codepen.io/halink0803/pen/qdVXqm
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
@@ -495,4 +494,5 @@ color: #2c2b2b;
 		-ms-transform:     translateY(-15px);
 		transform:         translateY(-15px)
 	}
+}
 }
