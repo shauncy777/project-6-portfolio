@@ -51,7 +51,8 @@ Here's the link: https://shauncy-portfolio.herokuapp.com/
     * Box shadows
     * Dotted borders
     * Text shadows 
-    * font changes and centering text in header and project grid.
+    * Font changes and centering text in header and project grid
+    * Optimization for mobile screen viewing
 - The error.pug template and the page-not-found.pug template have been created and added to the views folder.
 - When the app is pointed at undefined routes such as /noroute and /project/noroute, the app displays either the page-not-found or the error template, both of which should display   the error's status and message properties.
 
