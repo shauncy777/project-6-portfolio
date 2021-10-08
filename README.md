@@ -13,11 +13,14 @@ A JSON file stores all the data about the projects.
 
 Pug was used to complete templates that utilize the JSON to generate the markup that is ultimately displayed in the browser.
 
-Node.js and Express was used to:
+Node.js and Express were used to:
 
-Import the required dependencies and link the JSON with the Pug templates. Set up routes to handle requests. Set up the middleware to utilize static files like CSS Handle errors Set up a server to serve the project. 
+  - Import the required dependencies and link the JSON with the Pug templates. 
+  - Set up routes to handle requests. 
+  - Set up the middleware to utilize static files. 
+  - Set up a server to serve the project. 
 
-Finally, the live paged was deployed using Heroku.
+The live paged was deployed using Heroku.
 Here's the link: https://shauncy-portfolio.herokuapp.com/
 <br>
 
@@ -43,9 +46,14 @@ Here's the link: https://shauncy-portfolio.herokuapp.com/
 
 ## Notes Regarding Exceeds Expectations
 - Running "npm start" serves the app when app.listen set to port 3000.
-- Style changes in styles.css: CSS Bounce Hover Effect, Box Shadows, Text Shadows, Font Changes and centering text in Header and Project Grid
-- The error.pug template and the page-not-found.pug template have been created and added to the views folder
-- When the app is pointed at undefined routes such as /noroute and /project/noroute, the app displays either the page-not-found or the error template, both of which should display   the error's status and message properties
+- Style changes in styles.css: 
+    * CSS bounce hover effect, 
+    * Box shadows
+    * Dotted borders
+    * Text shadows 
+    * font changes and centering text in header and project grid.
+- The error.pug template and the page-not-found.pug template have been created and added to the views folder.
+- When the app is pointed at undefined routes such as /noroute and /project/noroute, the app displays either the page-not-found or the error template, both of which should display   the error's status and message properties.
 
 
 
@@ -54,3 +62,7 @@ Here's the link: https://shauncy-portfolio.herokuapp.com/
  * [Othneil Drew | Best-README-Template](https://github.com/othneildrew/Best-README-Template) 
 * [Ha Link on CodePen | CSS Bounce Hover Effect| ](https://codepen.io/halink0803/pen/qdVXqm) 
 * [CSS Generator - AngryTools.com](https://angrytools.com/css-generator/)
+
+## License
+
+Distributed under the MIT License. (https://opensource.org/licenses/MIT)
