@@ -20,10 +20,7 @@ app.get('/', (req, res, next) => {
 
 // Creates and renders about page
 app.get('/about', (req, res, next) => {
-    //res.render('about');
-    const err = new Error ('you fucked up');
-    err.status = 500;
-    next(err);
+    res.render('about');
 });
 
 // Creates dynamic project routes
