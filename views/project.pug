@@ -16,6 +16,8 @@ block content
 
         p= project.description
 
+        h4= project.comments
+
       .project-tech-links-box.box
         h6 Technologies
         ul
@@ -28,6 +30,8 @@ block content
 
     .project-img-box.box
         img.project-img(src=`${project.image_urls[1]}`, alt=`Screenshot of ${project.project_name} Project`)
+        img.project-img(src=`${project.image_urls[2]}`, alt=`Screenshot of ${project.project_name} Project`)
+        
         
 
     nav.nav
