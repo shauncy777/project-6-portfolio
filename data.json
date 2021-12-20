@@ -91,6 +91,27 @@
                             "/static/img/Screen Shot 2021-09-29 at 5.21.31 PM.png",
                             "/static/img/Screen Shot 2021-10-09 at 9.37.43 AM.png"
             ]
+        },
+        {
+            "id": 6,
+            "project_name": "SQL Library Manager",
+            "description": "This is an application that implements a browser interface to carry out CRUD operations on a SQLite Database.",
+            "technologies": ["Javascript",
+                            "Node.JS",
+                            "Express",
+                            "SQLite", 
+                            "Sequelize",
+                            "Pug",
+                            "GitHub",
+                            "Visual Studio Code"
+            ],
+            "live_link":    "https://github.com/shauncy777/project-8",
+            "github_link":  "https://github.com/shauncy777/project-8",
+            "image_urls": [ "/static/img/Screen Shot 2021-12-20 at 7.44.40 AM.png",
+                            "/static/img/Screen Shot 2021-12-20 at 7.44.40 AM.png",
+                            "/static/img/Screen Shot 2021-12-20 at 7.45.31 AM.png"
+            
+            ]
         }
     ]
 }
