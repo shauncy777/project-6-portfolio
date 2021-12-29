@@ -2,6 +2,21 @@
     "projects": [
         {
             "id": 0,
+            "project_name": "Freelance Website",
+            "description": "A website I designed and built for a startup company in the education sector. I implemented a Bootstrap Carousel template with custom hero images with a text overlay. Has some CSS animated transitions for card elements. The site is hosted by Github pages which is linked to a GoDaddy domain ."
+            ,
+            "technologies": ["Javascript","CSS","HTML", "GitHub", "Visual Studio Code"
+            ],
+            "live_link": "https://www.edu-mgmt.com/",
+            "github_link": "https://github.com/shauncy777/ed_mgmt",
+            "image_urls": [ "/static/img/Screen Shot 2021-12-29 at 2.45.33 PM.png",
+                            "/static/img/Screen Shot 2021-12-29 at 2.42.27 PM.png",
+                            "/static/img/Screen Shot 2021-12-29 at 2.48.36 PM.png"
+            ]
+        },
+        
+        {
+            "id": 1,
             "project_name": "Flashcard App",
             "description": "A personalized flashcard application built with Express and Pug on Node.js that stores username in a cookie, asks a random question, and provides hints and answers with interactive buttons."
             ,
@@ -16,7 +31,7 @@
         },
 
         {
-            "id": 1,
+            "id": 2,
             "project_name": "Data Pagination and Filtering",
             "description": "Program that allows users to click through multiple pages of student data by using pagination and filtering techniques.",
             "comments": "Project Reviewer Comments: 'Perfect! No errors in the console, and your code comments help demonstrate at a glance how your code works and what it does. Your fellow developers and your future self will thank you for making a habit of adding smart code comments to your projects...Love it!! Your project displays the appropriate number of students per page and the search provides feedback when no students were found. You have set up some solid logic and done a great job building a concise, yet effective, search! Excellent work implementing the keyup event listener, this really makes for a smooth search and adds a lot to the user experience. Nicely done!'",
@@ -31,7 +46,7 @@
         },
         
         {
-            "id": 2,
+            "id": 3,
             "project_name": "Interactive Web Form",
             "description": "An interactive registration form for a fictional Full Stack conference which uses JavaScript to enable conditional behavior and interactivity by validating user input and providing helpful error messages when the user enters invalid information.",
             "comments": "Project Reviewer Comments:  'Wow! Your script was quite refreshing to look at. I am very impressed in the extent of detail and cleanliness you've provided here. Your naming conventions for variables and functions are extremely clear and meaningful. You've commented where needed, particularly above your function signatures and blocks of variable initialization. It was nice to see that your script wasn't flooded with comments, as some do, but you let your code do most of the talking, as it was legible enough to do so. Going for a projects exceeds can definitely lengthen a scripts length, and it's good practice to try to keep shorter applications, such as this, between maybe two-hundred to three-hundred lines. You did just that!!! This was done with pure elegance, and you should be absolutely proud of this accomplishment.'",
@@ -46,7 +61,7 @@
         },  
         
         {
-            "id": 3,
+            "id": 4,
             "project_name": "Public API Requests",
             "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. A Random User Generator API (https://randomuser.me/) is used to grab information for 12 random “employees,” and builds a prototype for an employee directory. Clicking the employee’s image or name displays a modal window with more detailed information.",
             "comments":  "Project Reviewer Comments: 'You've coded a really amazing project here. The functionality is top notch, and the code is elegant. Very nice work. Congrats on making it this far.'",
@@ -61,7 +76,7 @@
         },       
         
         {
-            "id": 4,
+            "id": 5,
             "project_name": "Random Quote Generator",
             "description": "A color changing quote generator that provides a new quote with each button click. This program utilizes functions and conditional statements to iterate an array of objects and print them to the screen.",
             "technologies": ["Javascript","CSS","HTML", "GitHub", "Visual Studio Code"
@@ -74,7 +89,7 @@
                         ]
         },
         {
-            "id": 5,
+            "id": 6,
             "project_name": "Phrase Hunter",
             "description": "This is a word guessing game that displays a random, hidden phrase, which a player tries to guess by clicking letters on an onscreen keyboard.",
             "comments": "Project Reviewer Comments: 'Congratulations on such a successful project! You have built your first game in this techdegree, and have done so with your elegant practice of object-oriented programming. Be proud of this accomplishment, as learning OO is far from easy and straight forward. It is an overall different way of programming and thinking.'",
@@ -93,7 +108,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 7,
             "project_name": "SQL Library Manager",
             "description": "This is an application that implements a browser interface to carry out CRUD operations on a SQLite Database.",
             "technologies": ["Javascript",
